@@ -1,0 +1,14 @@
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.exe
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.deps.json
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.runtimeconfig.json
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.runtimeconfig.dev.json
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.dll
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\bin\Debug\netcoreapp3.1\KeyLogger.pdb
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.csproj.AssemblyReference.cache
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.AssemblyInfoInputs.cache
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.AssemblyInfo.cs
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.csproj.CoreCompileInputs.cache
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.dll
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.pdb
+C:\Users\Lukas\Desktop\KeyLogger\KeyLogger\obj\Debug\netcoreapp3.1\KeyLogger.genruntimeconfig.cache
