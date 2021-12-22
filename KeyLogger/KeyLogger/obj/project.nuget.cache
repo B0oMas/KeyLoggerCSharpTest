@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+eqgvNXmLOGkgMOoRUqVi4dFM144SeyVRFkAqx2Q/QClBSfN6oLDIhYts2lIR+tFGmMbG1MCRv6xJe3QyrWmWA==",
+  "dgSpecHash": "gGUHgQCHzeHJUOGwuHGQIDGRuWYuXVRGcgFyVOpr98j2dowtBVrTWAPgu1h5gNFV/6uzhS62vYHxX5OjjdnXmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lukas\\Desktop\\KeyLogger\\KeyLogger\\KeyLogger.csproj",
+  "projectFilePath": "E:\\GitRepositories\\KeyLoggerCSharpTest\\KeyLogger\\KeyLogger\\KeyLogger.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
